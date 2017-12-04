@@ -88,6 +88,7 @@ def getMovementIndex(vector):
 
 def statusChange():
 	global eventStatus
+	printVS(str(eventStatus))
 	print str(eventStatus)
 
 
